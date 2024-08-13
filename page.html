@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="header">
+          <!-- <h1>Logo</h1> -->
+          <!-- <div class="darks">
+            <h1><ion-icon name="contrast-outline"></ion-icon></h1>
+          </div> -->
+          <select class="breeds-select">
+            <option value="area">dogs</option>
+          </select>
+
+          <div class="header-nav">
+            <a href="index.html">Home</a>
+            <a href="#">Users</a>
+            <a href="page.html">Dog</a>
+          </div>
+          <div class="header-search">
+            <input type="text" placeholder="your text..." class="cou" />
+            <button class="search">search</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="breeds">
+      <div class="container">
+        <div class="breeds"></div>
+        <div class="breedsImg">
+            
+        </div>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="./dog.js"></script>
+  </body>
+</html>

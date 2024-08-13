@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+    background: rgb(180, 231, 223);
+   
+}
+
+
+.user{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  /* gap: 80px ; */
+  padding: 50px 0;
+
+
+
+
+
+}
+.block{
+width: 300px;
+height: 400px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 10px;
+border-radius: 25px;
+}
+.block img{
+    width: 200px;
+    height: 100px;
+}
+
+.user h2{
+text-align: center;
+font-size: 15px;
+}
+
+.user h3{
+    text-align: center; 
+}
+
+
+.user h4{
+    text-align: center; 
+    font-size: 20px;
+}
+
+.user h5{
+    text-align: center; 
+    font-size: 22px; 
+}
+.p{
+    font-weight: 20px;
+}
+#header{
+    padding: 25px;
+    background: rgb(70, 140, 161);
+}
+
+.header{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav a{
+margin-left: 30px;
+color: rgb(12, 12, 12);
+font-size: 20px;
+font-weight: 15px;
+}
+
+.btn1{
+    position: relative;
+    padding: 15px 35px;
+    border-radius: 15px;
+    border: none;
+    left: 0;
+    background: white;
+    
+}
+
+.clk{
+    position: absolute;
+    background: black;
+    width: 29px;
+    height: 29px;
+    border-radius: 15px;
+    left: 570px;
+    
+}
+.header select{
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: 20px;
+    border-radius: 5px;
+}
+
+.header-search input{
+padding: 10px 20px;
+border-radius: 10px;
+border: none;
+outline: none;
+font-size: 15px;
+font-weight: 15px;
+}
+
+.header-search button{
+padding: 8px 15px;
+border-radius: 10px;
+border:none;
+background: black;
+color:white
+
+}
+
+
+
+
+
+.close-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 370px;
+    color: aliceblue;
+ 
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 200px;
+    left: 500px;
+    width: 400px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+
+.breeds {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .btn-breeds {
+    font-size: 20px;
+    padding: 10px 20px;
+    background: yellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+
+
+
